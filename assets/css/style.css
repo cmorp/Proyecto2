@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    height: 6em;
+    padding: 3em;
+    font-size: 2em;
+    background-image: url("../imgs/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.products {
+    width: 60%;
+    margin: 60px;
+}
+
+.products td {
+    width: 40%;
+    padding: 2em;
+}
+
+.products img {
+    width: 80%;
+    border: solid 1px #000000;
+}
+
+.footer {
+    height: 5em;
+    line-height: 5em;
+    background-color: rgb(243, 116, 190);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
